@@ -1,5 +1,42 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Project Deployed in Vercel: [ChatGPT App]()
+
+Nextjs 14 Project using:
+
+- Nextjs 14 Features
+  - Src and App Folder
+  - Import Alias (@)
+  - .env.local and .env
+  - Metadata
+  - Turbo Pack -> npx next dev --turbo
+  - Streaming -> Skeleton Screens
+  - Client Side
+    - Google Fonts and TailwindCSS, NextUI and Framer Motion, Flowbite Icons SVG, Tabler Icons
+    - Link and Image Componente
+    - Layout and Page Structure
+    - Client Routes
+    - Dynamic Routes ([id] folder)
+    - Async GET in page.tsx -> Server Components
+    - Suspense React Component
+    - Page not-found.tsx, loading.tsx and notFound() Function
+    - useRouter(), useParam() and useSearchParams Hooks
+    - Revalidate
+    - Server Actions
+    - Route Groups
+  - Server Side
+    - API Routes using Route Handlers API
+    - params and searchParams in Route Handlers API
+    - Client and Server Components ('use client' and 'use server')
+- ESLint -> npx eslint --init
+- OpemAI Vercel SDK
+  - Using AI SDK from OpenAI and Vercel SDK AI Module: [npm install ai](https://www.npmjs.com/package/ai) - [Vercel AI SDK Explain](https://vercel.com/blog/introducing-the-vercel-ai-sdk)
+  - API Keys from OpenAI: [OpenAI API Keys](https://platform.openai.com/docs/introduction/gpts)
+
+### Links Projects
+
+- [FaztCode - Nextjs AI SDK Tutorial - Crea tu propio Chat Inteligente](https://www.youtube.com/watch?v=4jStdJ-CTuA)
+
 ## Getting Started
 
 First, run the development server:
